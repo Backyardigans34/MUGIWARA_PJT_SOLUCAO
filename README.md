@@ -14,7 +14,7 @@ Resumo do problema:
   Erros em agendamentos feitos manualmente (no papel ou Excel).
   Médicos perdendo tempo com pacientes que faltam sem avisar.
 
-💡 Nossa Solução:
+💡 Nossa Solucao:
 
   Vamos criar um site onde o paciente entra, vê os horários que o médico tem livre e reserva o seu na hora. Tudo automático!
     Como o sistema ajuda:
