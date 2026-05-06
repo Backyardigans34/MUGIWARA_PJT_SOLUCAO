@@ -1,13 +1,13 @@
 <?php
-$host = "localhost";
-$usuario = "root";
-$senha = "";
+
+$servidor = "localhost";
+$usuario = "root"; 
+$senha = "";       
 $banco = "dados_clinica";
 
+$conexao = mysqli_connect($servidor, $usuario, $senha, $banco);
 
-$conn = new mysqli($host, $usuario, $senha, $banco);
-
-if ($conn->connect_error) {
-    die("Erro na conexão: " . $conn->connect_error);
+if (!$conexao) {
+    die("Deu ruim na conexão: " . mysqli_connect_error());
 }
 ?>
